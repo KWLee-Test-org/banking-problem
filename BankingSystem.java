@@ -73,31 +73,29 @@ class Account {
 
     // Constructor
     public Account(int accNum, String name, double bal) {
-        this.accountNumber = accNum;
-        this.accountHolderName = name;
-        this.balance = bal;
+        // 필드 값 초기화
     }
 
     // Deposit method
     public void deposit(double amount) {
-        balance += amount;
+        // balance 업데이트
     }
 
     // Withdraw method
     public void withdraw(double amount) {
-        balance -= amount;
+        // balance 업데이트
     }
 
     // Getters
     public int getAccountNumber() {
-        return accountNumber;
+        // 계좌 번호 반환
     }
 
     public String getAccountHolderName() {
-        return accountHolderName;
+        // 예금주 이름 반환
     }
 
     public double getBalance() {
-        return balance;
+        // 잔고 반환
     }
 }
